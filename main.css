@@ -26,12 +26,12 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.btn:hover{
     background-color: rgb(50, 200, 15);
     color: white;
 }
 
-.footer-container {
+footer {
     position: fixed;
     bottom: 10px;
     width: 100%;
@@ -39,10 +39,15 @@ h1 {
 }
 
 .block {
-    width: 465px;
-    background: #000000;
     padding: 10px;
-    border-radius: 10px;
+}
+
+/* responsive .block width */
+@media (min-width: 800px) {
+    .block {
+        width: 80%;
+        margin: 0 auto;
+    }
 }
 
 .row {
@@ -51,6 +56,15 @@ h1 {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.row:hover {
+    background: rgb(50, 200, 15);
+    color: white;
+    cursor: pointer;
 }
 
 .description {
@@ -77,6 +91,10 @@ h1 {
 .nav-link {
     color: rgb(0, 255, 68);
     text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 .footer-text {
