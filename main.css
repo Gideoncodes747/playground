@@ -1,8 +1,102 @@
-h1 {color: rgb(33, 197, 12);}
-p {color: white;}
-.box {
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
+body {
+    background-color: black;
+    padding: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+h1 {
+    font-family: 'Science Gothic', sans-serif;
+    color: rgb(0, 255, 68);
+    margin: 0;
+}
+
+.btn {
+    background-color: rgb(60, 235, 17);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: rgb(50, 200, 15);
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.block {
+    padding: 10px;
+}
+
+/* responsive .block width */
+@media (min-width: 800px) {
+    .block {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.row {
+    background: rgb(0, 255, 68);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.row:hover {
+    background: rgb(50, 200, 15);
+    color: white;
+    cursor: pointer;
+}
+
+.description {
+    color: whitesmoke;
+}
+
+.divider {
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+    margin-bottom: 5px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: rgb(0, 255, 68);
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    color: rgb(204, 204, 204);
 }
