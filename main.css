@@ -1,8 +1,2 @@
-h1 {color: rgb(33, 197, 12);}
-p {color: white;}
-.box {
-  width: 300px;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-}
+.signup {
+    float: right;
