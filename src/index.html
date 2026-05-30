@@ -5,16 +5,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Neuralin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Science+Gothic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Neuralin</h1>
-    <p>Welcome to Neuralin, your AI companion for learning and creativity!</p>
+    <div class="container">
+      <form class="signup-form">
+        <h1>Neuralin</h1>
+        <h2>Create Account</h2>
 
-    <ul>
-      <li><a href="https://google.com">Contact</a></li>
-      <li><a href="#feature2">Lucian</a></li>
-      <li><a href="#feature3">Ehben</a></li>
-      <li><a href="#feature4">Gideon</a></li>
-    </ul>
+        <input type="text" placeholder="Username" required />
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+
+        <button type="submit">Sign Up</button>
+
+        <p>Already have an account? <a href="#">Login</a></p>
+      </form>
+    </div>
   </body>
 </html>
